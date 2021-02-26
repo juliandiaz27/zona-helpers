@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+  header{ 
+    width: 100%;
+    background-color:#f1eeee ;
+    background: url(/images/onda.png);
+    height: 760px;
+
+  } 
+  
+  
+  .row{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+  }
+  .col-1{
+    max-width: 60%;
+   display: inline-block;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 10%;
+   font-size: 30px; 
+  }
+  .col-1 h1{
+    color: white;
+
+  }
+  .col-1 p {
+    color: white;
+  }
+  .titulo{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+
+  }
+  .col-2{
+    max-width: 40%;
+  }
+  .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    margin-top: 20%;
+  }
+  .imagen-header{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+  }
+ /* 
+      ///////////////SOBRE NOSOTROS/////////////// */
+
+  .contenedor{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 7%;
+   }
+  
+  .row-2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+    
+    
+    
+  }
+  .col3{
+    width: 33.3%;
+    flex-basis:30% ;
+    min-width: 250px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    border-radius: 15px;
+    background:white;
+    opacity: 0.9;
+    
+  
+    
+    
+  }
+  
+  
+  .iconos{
+    display: block;
+  	margin-left: auto;
+	  margin-right: auto
+  }
+  .col3 h3{
+    margin-top: 30px;
+    text-align: center;
+    color: #f17d27;
+  }
+  .col3 h4{
+    margin-top: 10px;
+    text-align: center;
+    color: #f17d27;
+  }
+  .col3 p{
+    display: block;
+  	margin-left: auto;
+	  margin-right: auto;
+    text-align: center;
+    color: #606060;
+    margin-top: 10px;
+
+  }
+
+  .col3 .largo{
+    align-self: stretch;
+  }  
+    
+  /* ----///////////////////// MAIN ///////////--- */
+  
+  /* ------------///////////////// TECNOLOGIA Y COMUNIDAD ////////////----------- */
+
+   
+   main{
+    background: url(/images/onda-2.png);
+    width: 100%;
+    margin-top: 610px;
+
+  }
+  .sobre-nosotros{
+    margin-top: 300px;
+    
+    
+   
+  }
+  .col4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:30px;
+    padding-top: 40px;
+    
+  }
+  .col4 h2{
+    color: #ea330b;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.16;
+    text-align: center;
+   
+    
+  }
+  .col4 h4{
+    color:#606060;
+    font-size: 20px;   
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .col4 p{
+    color:#606060;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: left;
+  }
+ 
+    
+  
