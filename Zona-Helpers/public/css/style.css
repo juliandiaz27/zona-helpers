@@ -5,63 +5,91 @@
   font-family: 'Roboto', sans-serif;
 }
 body{
-  max-width: 1400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
+  
 
 }
 
   header{ 
-    width: 100%;
-    background-color:#f1eeee ;
-    background: url(/images/onda.png);
-    height: 760px;
+    
+    max-width: 100%;
 
   } 
   
   
+  .contenedor-header{
+    background-image: url(/images/onda.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+ 
+    
+    
+   
+
+  }
+  
+  
   .row{
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+   
     
   }
   .col-1{
-    max-width: 60%;
-   display: inline-block;
-   align-items: center;
-   flex-direction: column;
-   margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+   max-width: 50%;
+   /* margin-top: 10%; */
    font-size: 30px; 
+   text-align: start;
+   padding-top: 5%;
   }
   .col-1 h1{
     color: white;
+    font-size: 76px;
+  font-weight: bold;
+  line-height: 1.01
 
   }
   .col-1 p {
     color: white;
-  }
+    font-family: Roboto;
+  font-size: 26px;
+  font-weight: 300;
+  
+  line-height: 1.5;
+  
+  text-align: left;
+  color: #ffffff;
+}
+  
   .titulo{
     color: white;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 50px;
 
   }
   .col-2{
-    max-width: 40%;
+    max-width: 39.9%;
   }
   .col-2 img{
     max-width: 100%;
     padding: 50px 0;
-    margin-top: 20%;
+    /* margin-top: 20%; */
   }
   .imagen-header{
     max-width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     
+  }
+  .flotante-header{
+    display: flex;
   }
  /* 
       ///////////////SOBRE NOSOTROS/////////////// */
@@ -70,19 +98,17 @@ body{
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 7%;
+    
+    
    }
   
   .row-2{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
+    
+    justify-content: center;
     
     
     
@@ -92,11 +118,14 @@ body{
     width: 33.3%;
     flex-basis:30% ;
     min-width: 250px;
-    margin-bottom: 30px;
+    margin:10px;
     flex-direction: column;
-    border-radius: 15px;
-    background:white;
+    border: solid white ;
     opacity: 0.9;
+    border-radius: 10px;
+    
+    
+    
     
   
     
@@ -139,24 +168,40 @@ body{
 
    
    main{
-    background: url(/images/onda-2.png);
-    width: 100%;
-    margin-top: 610px;
-
+    
+  }
+  .contenedor-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(/images/onda-2.png) ;
+    background-repeat: no-repeat;
+    
+  }
+  .row3{
+    padding-top: 10%;
+    display: flex;
+    flex-wrap:wrap;
+    
+    justify-content: center;
   }
   .sobre-nosotros{
-    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     
     
-   
+    
+ 
   }
   .col4{
     display: flex;
     text-align: center;
-    justify-content: center;
+    
     flex-direction: column;
-    margin:30px;
-    padding-top: 40px;
+    
+    padding-top: 20%;
     
   }
   .col4 h2{
@@ -182,6 +227,80 @@ body{
   margin-top: 15px;
   text-align: left;
   }
+ /* ---------------------------------otra seccion ( parte de abajo naranja)------------------ */
  
+  .servicios{
     
+    width: 100%;
+    margin-top: 17%;
+  }
+  .servicios h1{
+    
+    color: white;
+  }
+  .contenido{
+    display: flex;    
+    flex-wrap:wrap ;
+    width: 100%;
+    
+    
+    
+
+    
+     
+  }
+  .contenido-texto{
+    display: flex;
+    flex-direction: row;
+    width: 31%;
+    flex-wrap: wrap;
+    margin: 1%;
+
+    
+  }
+  .prueba{
+    width: 60%;
+    text-align: start;
+
+  }
+  .prueba p{
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .prueba h2{
+    font-weight: bold;
+  }
+  .prueba2{
+    width: 30%;
+    padding:5px;
+  }
+  .contenido-texto h2{
+    
+    color: white;
+    font-size: bold;
+    font-size: 18px;
+    text-align: start;
+  }
+  .contenido-texto p {
+   color: white;
+   font-size: 16px;
+   
+  }
+   /* ---------------------------------APARTADO DE ABAJO DE LAS 5 IAMGENES CON TEXTO------------------ */
+
+   .apartado{
+     display: flex;
+    margin-top: 5%;
+     padding: 10px;
+     justify-content: space-around;
+     width: 100%;
+   }
+   .texto3{
+     display: flex;
+     background-color: #7BB6B2
+     padding: 17px 45px 15px 44px;
+     border: 1px solid white;
+     border-radius: 10px;
+   }
+  
   
