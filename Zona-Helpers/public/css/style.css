@@ -157,7 +157,8 @@ body{
   .iconos{
     display: block;
   	margin-left: auto;
-	  margin-right: auto
+	  margin-right: auto;
+    padding: ;
   }
   .col3 h3{
     margin-top: 30px;
