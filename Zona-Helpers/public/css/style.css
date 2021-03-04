@@ -12,7 +12,7 @@ body{
     
     background-image: url(/images/onda.png);
     background-repeat: no-repeat;
-    background-size: 1400px 781px;
+    
 
   } 
   
@@ -33,12 +33,12 @@ body{
    /* margin-top: 10%; */
    font-size: ; 
    text-align: start;
-   width: 49%;
+   width: 59%;
    
   }
   .col-1 h1{
     color: white;
-    font-size: 3.9rem;
+    font-size: 76px;
     font-weight: bold;
     /* line-height: 1.01; */
     text-align: start;
@@ -57,7 +57,7 @@ body{
   .titulo{
     color: white;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 56px;
   }
   .col-2{
     max-width: 39.9%;
@@ -76,16 +76,13 @@ body{
   }
   .cardio-protegida{
     font-size: 1.0em;
-    font-weight: 400;
+    font-weight: 700;
     border: solid 2px #ffffff;
     background-color: #7BB6B2;
     border-radius: 20px;
-    
     text-align: center;
-    
-    
-    padding: 0px;
-    width: 58%;
+    padding: 10px 15px;
+    margin-top: 5.0%;
   }
   /* ---------------------------- TERMINA EL HEADER--------------------- */
 
@@ -207,7 +204,7 @@ body{
     
     display: flex;
     flex-wrap:wrap;
-    
+    padding-top: 11%;
     justify-content: center;
   }
   .que-hacemos{
@@ -215,10 +212,12 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 26%;
     background: url(/images/onda-2.png);
     background-repeat: no-repeat;
-    height: 2680px;
+    max-width: 2680px;
     
     
     
@@ -257,7 +256,7 @@ body{
   font-weight: bold;
   margin-top: 15px;
   text-align: left;
-  line-height: 2;
+  line-height: 1.5;
   }
   /* ----------------------SEGUNDA IMAGEN--------------------- */ 
   .col-5{
@@ -329,7 +328,9 @@ body{
   }
 
  /* ---------------------------------otra seccion ( parte de abajo naranja)------------------ */
- 
+ .contenedor-naranja{
+   padding-top: 20%;
+ }
   .servicios{
     
     width: 100%;
@@ -483,4 +484,10 @@ body{
       display: flex;
       justify-content: center;
       
+    }
+
+    /* media queris */
+
+    @media(){
+
     }
