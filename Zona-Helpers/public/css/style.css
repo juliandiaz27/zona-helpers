@@ -6,72 +6,58 @@
 }
 body{
   
-  
-
 }
 
   header{ 
     
-    max-width: 100%;
+    background-image: url(/images/onda.png);
+    background-repeat: no-repeat;
+    background-size: 1400px 781px;
 
   } 
   
   
   .contenedor-header{
-    background-image: url(/images/onda.png) ;
-    background-repeat: no-repeat;
-    background-size: 100%;
     
- 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
     
-    
-   
 
   }
   
-  
-  .row{
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
-   
-    
-  }
   .col-1{
     display: flex;
     flex-wrap: wrap;
-   max-width: 50%;
    /* margin-top: 10%; */
-   font-size: 30px; 
+   font-size: ; 
    text-align: start;
-   padding-top: 5%;
+   width: 49%;
+   
   }
   .col-1 h1{
     color: white;
-    font-size: 76px;
-  font-weight: bold;
-  line-height: 1.01
+    font-size: 3.9rem;
+    font-weight: bold;
+    /* line-height: 1.01; */
+    text-align: start;
 
   }
-  .col-1 p {
+  .col-1  {
     color: white;
     font-family: Roboto;
-  font-size: 26px;
-  font-weight: 300;
-  
-  line-height: 1.5;
-  
-  text-align: left;
-  color: #ffffff;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
 }
   
   .titulo{
     color: white;
-    font-weight: 500;
-    font-size: 50px;
-
+    font-weight: 300;
+    font-size: 1.5em;
   }
   .col-2{
     max-width: 39.9%;
@@ -88,12 +74,28 @@ body{
     flex-direction: column;
     
   }
-  .flotante-header{
-    display: flex;
+  .cardio-protegida{
+    font-size: 1.0em;
+    font-weight: 400;
+    border: solid 2px #ffffff;
+    background-color: #7BB6B2;
+    border-radius: 20px;
+    
+    text-align: center;
+    
+    
+    padding: 0px;
+    width: 58%;
   }
+  /* ---------------------------- TERMINA EL HEADER--------------------- */
+
+
  /* 
       ///////////////SOBRE NOSOTROS/////////////// */
-
+  .contenedor-sobre-nosotros{
+    display: flex;
+    width: 100%;
+  }
   .contenedor{
     
     display: flex;
@@ -114,21 +116,43 @@ body{
     
     
   }
-  .col3{
-    width: 33.3%;
-    flex-basis:30% ;
+  .col3-1{
+    width: 31%;
+    text-align: center;
+    /* flex-basis: 30%; */
     min-width: 250px;
-    margin:10px;
+    margin: 10px;
     flex-direction: column;
-    border: solid white ;
+    border: solid white;
     opacity: 0.9;
     border-radius: 10px;
+    border: solid 2px red
     
+  }
+  .col3-2{
+    width: 31%;
+    text-align: center;
+    /* flex-basis: 30%; */
+    min-width: 250px;
+    margin: 10px;
+    flex-direction: column;
+    border: solid white;
+    opacity: 0.9;
+    border-radius: 10px;
+    border: solid 2px red
     
-    
-    
-  
-    
+  }
+  .col3-3{
+    width: 31%;
+    text-align: center;
+    /* flex-basis: 30%; */
+    min-width: 250px;
+    margin: 10px;
+    flex-direction: column;
+    border: solid white;
+    opacity: 0.9;
+    border-radius: 10px;
+    border: solid 2px red
     
   }
   
@@ -162,49 +186,56 @@ body{
     align-self: stretch;
   }  
     
-  /* ----///////////////////// MAIN ///////////--- */
+
   
   /* ------------///////////////// TECNOLOGIA Y COMUNIDAD ////////////----------- */
 
    
    main{
-    
+    width: 100%;
+   height: 100%;
+  
   }
   .contenedor-main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(/images/onda-2.png) ;
-    background-repeat: no-repeat;
+    
     
   }
   .row3{
-    padding-top: 10%;
+    
     display: flex;
     flex-wrap:wrap;
     
     justify-content: center;
   }
-  .sobre-nosotros{
+  .que-hacemos{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 40px;
+    background: url(/images/onda-2.png);
+    background-repeat: no-repeat;
+    height: 2680px;
     
     
     
  
   }
-  .col4{
+  /* ----------------------PRIMERA IMAGEN--------------------- */
+  .col-4{
     display: flex;
     text-align: center;
-    
+    width: 31%;
     flex-direction: column;
+    /* padding: 36px; */
+    width: 49%;
     
-    padding-top: 20%;
     
   }
-  .col4 h2{
+  .col-4 h2{
     color: #ea330b;
     font-size: 45px;
     text-align: center;
@@ -213,26 +244,96 @@ body{
    
     
   }
-  .col4 h4{
+  .col-4 h4{
     color:#606060;
     font-size: 20px;   
     font-weight: bold;
     margin-top: 30px;
     text-align: left;
   }
-  .col4 p{
+  .col-4 p{
     color:#606060;
   font-size: 16px;
   font-weight: bold;
   margin-top: 15px;
   text-align: left;
+  line-height: 2;
   }
+  /* ----------------------SEGUNDA IMAGEN--------------------- */ 
+  .col-5{
+    display: flex;
+    text-align: center;
+    width: 31%;
+    flex-direction: column;
+    /* padding: 36px; */
+    width: 49%;
+    
+  }
+  .col-5 h2{
+    color: #ea330b;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.16;
+    text-align: center;
+   
+    
+  }
+  .col-5 h4{
+    color:#606060;
+    font-size: 20px;   
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .col-5 p{
+    color:#606060;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: left;
+  line-height: 2;
+  }
+  /* ----------------------TERCERA IMAGEN---------------------  */
+  .col-6{
+    display: flex;
+    text-align: center;
+    width: 31%;
+    flex-direction: column;
+    /* padding: 36px; */
+    width: 49%;
+    
+  }
+  .col-6 h2{
+    color: #ea330b;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.16;
+    text-align: center;
+   
+    
+  }
+  .col-6 h4{
+    color:#606060;
+    font-size: 20px;   
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .col-6 p{
+    color:#606060;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: left;
+  line-height: 2;
+  }
+
  /* ---------------------------------otra seccion ( parte de abajo naranja)------------------ */
  
   .servicios{
     
     width: 100%;
-    margin-top: 17%;
+    /* margin-top: 17%; */
   }
   .servicios h1{
     
@@ -254,7 +355,7 @@ body{
     flex-direction: row;
     width: 31%;
     flex-wrap: wrap;
-    margin: 1%;
+    /* margin: 1%; */
 
     
   }
@@ -297,10 +398,89 @@ body{
    }
    .texto3{
      display: flex;
-     background-color: #7BB6B2
+     background-color: #7BB6B2;
      padding: 17px 45px 15px 44px;
      border: 1px solid white;
      border-radius: 10px;
-   }
+     padding: 20px;
+    }
+  /* ---------------------------------TESTIMONIO------------------ */
+    .testimonio{
+      display: flex;
+      
+      padding: 50px;
+      
+    }
+    .testimonio-texto{
+      text-align: end;
+      line-height: 39px;
+
+      
+      
+    }
+    .video{
+      width: 100%;
+    }
+    .contenido-testimonio{
+      display: flex;
+      align-items: center;
+    }
+    .contenido-testimonio img{
   
-  
+      padding: 20px;
+  }
+     
+    
+    .testimonio-texto h2{
+      color: #ea330b;
+      font-size: 42px;
+      line-height: 52px;
+      
+
+    }
+    /* .testimonio-texto h3{
+      width: 901px;
+      height: 6px;
+      background-image: linear-gradient(left,#F40D18,#F37F22);
+      margin: 22px 0 38px 7px
+      
+    } */
+    .testimonio-texto p{
+      color: #606060;
+      font-size: 28px;
+      line-height: 39px;
+      margin: 20px
+    }
+    .contenido-testimonio p {
+      
+
+    }
+    .mira-el-video{
+      color: #ea330b;
+      line-height: 52px;
+      font-size: 21px;
+      text-align: end;
+      list-style:linear-gradient(#ea330b);
+    }
+
+       /* ---------------------------------fotos final------------------ */
+    
+    .fotos-final{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 100px;      
+    }
+    .titulo-final{
+      text-align: center;
+      margin-top: 30px;
+      font-size: 25px;
+      line-height: 39px;
+      color: #606060;
+      font-weight: bold;
+    }
+    .carrusel{
+      display: flex;
+      justify-content: center;
+      
+    }
